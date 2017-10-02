@@ -11,6 +11,8 @@ namespace MainPersonne
         public string Nom { set; get; }
         public string Prenom { set; get; }
 
+        private short _age;
+
         public Personne(string nom, string prenom)
         {
             this.Nom = nom;
