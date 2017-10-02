@@ -17,5 +17,13 @@ namespace MainPersonne
             this.Prenom = prenom;
         }
 
+        public Personne()
+        {
+            this.Nom = "Ho";
+            this.Prenom = "Hi";
+        }
+
+        
+
     }
 }
