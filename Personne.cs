@@ -28,5 +28,11 @@ namespace MainPersonne
             return Nom + Prenom;
         }
 
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
     }
 }
