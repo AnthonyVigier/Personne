@@ -23,7 +23,10 @@ namespace MainPersonne
             this.Prenom = "Hi";
         }
 
-        
+        public override string ToString()
+        {
+            return Nom + Prenom;
+        }
 
     }
 }
