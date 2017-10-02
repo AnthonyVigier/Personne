@@ -39,5 +39,10 @@ namespace MainPersonne
             return true;
         }
 
+        public bool Surtonnez()
+        {
+            return true;
+        }
+
     }
 }
