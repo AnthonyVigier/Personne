@@ -44,5 +44,10 @@ namespace MainPersonne
             return true;
         }
 
+        public bool MesFesses()
+        {
+            return false;
+        }
+
     }
 }
