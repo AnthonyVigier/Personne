@@ -34,5 +34,10 @@ namespace MainPersonne
             return base.Equals(obj);
         }
 
+        public bool Moncul()
+        {
+            return true;
+        }
+
     }
 }
